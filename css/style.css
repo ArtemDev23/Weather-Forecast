@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/img/512.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.wrep_h1 {
+    min-height: 60px;
+    background-color: rgba(39, 130, 234, 0.6);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: #00ff08;
+    font-size: 45px;
+}
+
+h3 {
+    color: #00ff08;
+    font-size: 35px;
+}
+
+img {
+    height: 130px;
+    width: 130px;
+}
+
+.weather-card {
+    font-size: 25px;
+    color: white;
+    /* min-width: 620px; */
+    text-align: center;
+    background-color: #1e25f6;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.weather {
+    font-size: 25px;
+    color: white;
+    max-width: 800px;
+    text-align: center;
+    background-color: #03c0ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper_btn {
+    display: flex;
+    width: 70px;
+    position: fixed;
+    top: 40px;
+    right: 40px;
+}
+
+.btn:active {
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 1;
+}
+
+.block_weather {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+
+/* переключатель температури */
+.btn {
+    padding: 3px 14px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.units__c,
+.units__f {
+    padding: 3px 14px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.units__c {
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.units__f {
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.unit-current {
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 1;
+}
+
+.btn-reset {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    opacity: 0.6;
+    background-color: transparent;
+    color: gray;
+}
