@@ -10,7 +10,7 @@ class WeatherApp {
       for (const city of this.cities) {
         try {
           const response = await fetch(
-            `http://api.openweathermap.org/data/2.5/weather?id=${city.id}&appid=${this.apiKey}&units=metric`
+            `https://api.openweathermap.org/data/2.5/weather?id=${city.id}&appid=${this.apiKey}&units=metric`
           );
           const data = await response.json();
           const cityName = city.name;
